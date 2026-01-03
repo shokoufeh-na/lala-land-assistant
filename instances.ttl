@@ -1,0 +1,391 @@
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:beverlyHills rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "6500000"^^xsd:decimal ;
+    :hasPopulation "32600"^^xsd:integer ;
+    :hasArea "5.7"^^xsd:decimal ;
+    :hasLuxuryLevel "10/10" ;
+    :hasVibe "Exclusive, glamorous, celebrity-filled" ;
+    :knownForCuisine "Fine dining and Michelin-star restaurants" ;
+    :description "Known for luxury shopping and elite lifestyles; Rodeo Drive" ;
+    :features "ShoppingDistrict, GatedCommunity; Rodeo Drive" ;
+    :hasCelebrityResidents true .
+
+
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:malibu rdf:type :CoastalLuxuryNeighborhood ;
+    :hasAvgPrice "5270000"^^xsd:decimal ;
+    :hasPopulation "10400"^^xsd:integer ;
+    :hasArea "19.8"^^xsd:decimal ;
+    :hasLuxuryLevel "9/10" ;
+    :hasVibe "Relaxed beach luxury" ;
+    :knownForCuisine "Upscale seafood and coastal cafés" ;
+    :description "Iconic coastal estates with ocean views" ;
+    :features "OceanView, BeachLifestyle; Malibu Pier, Getty Villa" ;
+    :hasCelebrityResidents true .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:belAir rdf:type :ExclusiveResidentialNeighborhood ;
+    :hasAvgPrice "10000000"^^xsd:decimal ;
+    :hasPopulation "8200"^^xsd:integer ;
+    :hasArea "6.3"^^xsd:decimal ;
+    :hasLuxuryLevel "10/10" ;
+    :hasVibe "Ultra-exclusive, private estates" ;
+    :knownForCuisine "Fine dining nearby in Beverly Hills" ;
+    :description "Sprawling mansions, celebrity haven" ;
+    :features "GatedCommunity; Bel Air Country Club" .
+
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:holmbyHills rdf:type :ExclusiveResidentialNeighborhood ;
+    :hasAvgPrice "27200000"^^xsd:decimal ;
+    :hasPopulation "2500"^^xsd:integer ;
+    :hasArea "2.5"^^xsd:decimal ;
+    :hasLuxuryLevel "10/10" ;
+    :hasVibe "Opulent mega-mansions" ;
+    :knownForCuisine "Gourmet and high-end" ;
+    :description "Historical estates like Playboy Mansion" ;
+    :features "GatedCommunity; Los Angeles Country Club" ;
+    :hasCelebrityResidents true .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:pacificPalisades rdf:type :CoastalLuxuryNeighborhood ;
+    :hasAvgPrice "5500000"^^xsd:decimal ;
+    :hasPopulation "23000"^^xsd:integer ;
+    :hasArea "24.3"^^xsd:decimal ;
+    :hasLuxuryLevel "9/10" ;
+    :hasVibe "Serene coastal upscale" ;
+    :knownForCuisine "Fresh seafood, farm-to-table" ;
+    :description "Ocean views, family-friendly luxury" ;
+    :features "OceanView; Will Rogers State Beach" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:brentwood rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "4000000"^^xsd:decimal ;
+    :hasPopulation "31000"^^xsd:integer ;
+    :hasArea "15.2"^^xsd:decimal ;
+    :hasLuxuryLevel "8/10" ;
+    :hasVibe "Rustic charm, upscale" ;
+    :knownForCuisine "Organic cafés, Italian" ;
+    :description "Tree-lined streets, celebrity homes" ;
+    :features "ShoppingDistrict; Getty Center" ;
+    :hasCelebrityResidents true .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:hiddenHills rdf:type :ExclusiveResidentialNeighborhood ;
+    :hasAvgPrice "4500000"^^xsd:decimal ;
+    :hasPopulation "1800"^^xsd:integer ;
+    :hasArea "1.7"^^xsd:decimal ;
+    :hasLuxuryLevel "9/10" ;
+    :hasVibe "Secluded gated enclave" ;
+    :knownForCuisine "Nearby upscale dining" ;
+    :description "Privacy for stars like Kim Kardashian" ;
+    :features "GatedCommunity; Equestrian trails" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:manhattanBeach rdf:type :CoastalLuxuryNeighborhood ;
+    :hasAvgPrice "3700000"^^xsd:decimal ;
+    :hasPopulation "35000"^^xsd:integer ;
+    :hasArea "3.9"^^xsd:decimal ;
+    :hasLuxuryLevel "8/10" ;
+    :hasVibe "Beachy, vibrant" ;
+    :knownForCuisine "Seafood, fusion" ;
+    :description "Surf culture, upscale beach homes" ;
+    :features "OceanView; Manhattan Beach Pier" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:beverlyCrest rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "3400000"^^xsd:decimal ;
+    :hasPopulation "11000"^^xsd:integer ;
+    :hasArea "8.2"^^xsd:decimal ;
+    :hasLuxuryLevel "8/10" ;
+    :hasVibe "Peaceful hillside luxury" ;
+    :knownForCuisine "Fine dining access" ;
+    :description "Low density, views of LA basin" ;
+    :features "Nightlife nearby; Mulholland Drive" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:santaMonica rdf:type :CoastalLuxuryNeighborhood ;
+    :hasAvgPrice "3200000"^^xsd:decimal ;
+    :hasPopulation "93000"^^xsd:integer ;
+    :hasArea "8.4"^^xsd:decimal ;
+    :hasLuxuryLevel "8/10" ;
+    :hasVibe "Coastal urban mix" ;
+    :knownForCuisine "Diverse, farm-fresh" ;
+    :description "Third Street Promenade, beach vibes" ;
+    :features "ShoppingDistrict; Santa Monica Pier" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:westwood rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "3000000"^^xsd:decimal ;
+    :hasPopulation "47000"^^xsd:integer ;
+    :hasArea "3.7"^^xsd:decimal ;
+    :hasLuxuryLevel "7/10" ;
+    :hasVibe "Academic upscale" ;
+    :knownForCuisine "International cuisine" ;
+    :description "Near UCLA, cultural hub" ;
+    :features "Nightlife; Hammer Museum" ;
+    :hasVibe "Academic upscale" ;
+    :knownForCulture "University lifestyle" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:centuryCity rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "2900000"^^xsd:decimal ;
+    :hasPopulation "5500"^^xsd:integer ;
+    :hasArea "0.7"^^xsd:decimal ;
+    :hasLuxuryLevel "7/10" ;
+    :hasVibe "Modern business luxury" ;
+    :knownForCuisine "Upscale malls" ;
+    :description "High-rises, shopping" ;
+    :features "ShoppingDistrict; Westfield Century City" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:encino rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "2600000"^^xsd:decimal ;
+    :hasPopulation "44000"^^xsd:integer ;
+    :hasArea "9.5"^^xsd:decimal ;
+    :hasLuxuryLevel "7/10" ;
+    :hasVibe "Family-friendly charm" ;
+    :knownForCuisine "Diverse dining" ;
+    :description "Parks, hillside homes" ;
+    :features "Sepulveda Basin Recreation Area" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:paradiseCoveBluffs rdf:type :CoastalLuxuryNeighborhood ;
+    :hasAvgPrice "82600000"^^xsd:decimal ;
+    :hasLuxuryLevel "10/10" ;
+    :hasVibe "Ultra-secluded beachfront" ;
+    :knownForCuisine "Seafood exclusive" ;
+    :description "Private beaches, ocean estates" ;
+    :features "OceanView; Private cove access" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:beverlyPark rdf:type :ExclusiveResidentialNeighborhood ;
+    :hasAvgPrice "32500000"^^xsd:decimal ;
+    :hasLuxuryLevel "10/10" ;
+    :hasVibe "Gated mega-estates" ;
+    :knownForCuisine "Gourmet private" ;
+    :description "A-list residents like Mark Wahlberg" ;
+    :features "GatedCommunity; Expansive grounds" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:encinalBluffs rdf:type :CoastalLuxuryNeighborhood ;
+    :hasAvgPrice "29500000"^^xsd:decimal ;
+    :hasLuxuryLevel "10/10" ;
+    :hasVibe "Tranquil bluff-top" ;
+    :knownForCuisine "Coastal fine" ;
+    :description "Gehry-designed homes" ;
+    :features "OceanView; Panoramic coastline" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:serraRetreat rdf:type :CoastalLuxuryNeighborhood ;
+    :hasAvgPrice "23300000"^^xsd:decimal ;
+    :hasLuxuryLevel "9/10" ;
+    :hasVibe "Wooded ocean views" ;
+    :knownForCuisine "Rustic upscale" ;
+    :description "Gated, near Malibu Creek" ;
+    :features "OceanView; Franciscan retreat" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:belAirEstates rdf:type :ExclusiveResidentialNeighborhood ;
+    :hasAvgPrice "18500000"^^xsd:decimal ;
+    :hasLuxuryLevel "9/10" ;
+    :hasVibe "Secure historic luxury" ;
+    :knownForCuisine "Fine dining nearby" ;
+    :description "Sprawling lawns, pools" ;
+    :features "GatedCommunity; Terraced gardens" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:beverlyHillsGateway rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "17500000"^^xsd:decimal ;
+    :hasLuxuryLevel "9/10" ;
+    :hasVibe "Glamorous entry to BH" ;
+    :knownForCuisine "Iconic hotel dining" ;
+    :description "Near Beverly Hills Hotel" ;
+    :features "ShoppingDistrict; Tree-lined streets" .
+
+@prefix : <http://example.com/lala-land#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:malibuColony rdf:type :CoastalLuxuryNeighborhood ;
+    :hasAvgPrice "15000000"^^xsd:decimal ;
+    :hasLuxuryLevel "9/10" ;
+    :hasVibe "Gated beach colony" ;
+    :knownForCuisine "Seafood celebrity" ;
+    :description "1920s film colony origins" ;
+    :features "OceanView; Gated beachfront" .
+
+:brentwoodPark rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "13900000"^^xsd:decimal ;
+    :hasLuxuryLevel "8/10" ;
+    :hasVibe "Charming rustic" ;
+    :knownForCuisine "Organic high-end" ;
+    :description "Modeled after Golden Gate Park" ;
+    :features "Large yards; Curving roads" .
+
+:dohenyEstates rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "13600000"^^xsd:decimal ;
+    :hasLuxuryLevel "8/10" ;
+    :hasVibe "Modern hillside" ;
+    :knownForCuisine "Sunset Strip access" ;
+    :description "Views of LA basin" ;
+    :features "Nightlife; Terraced lots" .
+
+:belAirCrest rdf:type :ExclusiveResidentialNeighborhood ;
+    :hasAvgPrice "12000000"^^xsd:decimal ;
+    :hasLuxuryLevel "8/10" ;
+    :hasVibe "Resort-style gated" ;
+    :knownForCuisine "Canyon views" ;
+    :description "Contemporary homes with pools" ;
+    :features "GatedCommunity; Sepulveda Canyon views" .
+
+:brentwoodCircle rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "18000000"^^xsd:decimal ;
+    :hasLuxuryLevel "8/10" ;
+    :hasVibe "Private hillside" ;
+    :knownForCuisine "Cafés nearby" ;
+    :description "First gated in LA (1995)" ;
+    :features "GatedCommunity; Getty Museum overlook" .
+
+:hollywoodHills rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "1980000"^^xsd:decimal ;
+    :hasPopulation "22000"^^xsd:integer ;
+    :hasArea "7.1"^^xsd:decimal ;
+    :hasLuxuryLevel "7/10" ;
+    :hasVibe "Scenic artistic" ;
+    :knownForCuisine "Diverse nightlife" ;
+    :description "Views, entertainment ties" ;
+    :features "Nightlife; Hollywood Sign" ;
+    :knownForArts "Film industry, creative hub" ;
+    :knownForCulture "Music, entertainment" .
+
+:calabasas rdf:type :ExclusiveResidentialNeighborhood ;
+    :hasAvgPrice "2800000"^^xsd:decimal ;
+    :hasPopulation "23000"^^xsd:integer ;
+    :hasArea "13.3"^^xsd:decimal ;
+    :hasLuxuryLevel "7/10" ;
+    :hasVibe "Peaceful valley luxury" ;
+    :knownForCuisine "Upscale malls" ;
+    :description "Gated like The Oaks" ;
+    :features "GatedCommunity; Malibu Creek Park" .
+
+:losFeliz rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "2000000"^^xsd:decimal ;
+    :hasPopulation "35000"^^xsd:integer ;
+    :hasArea "6.6"^^xsd:decimal ;
+    :hasLuxuryLevel "7/10" ;
+    :hasVibe "Historic charm" ;
+    :knownForCuisine "Vibrant eclectic" ;
+    :description "Griffith Park proximity" ;
+    :features "ArtisticLifestyle; Griffith Observatory" ;
+    :knownForArts "Indie music, bohemian lifestyle" ;
+    :knownForCulture "Historic architecture, art scene" .
+
+:ranchoPalosVerdes rdf:type :CoastalLuxuryNeighborhood ;
+    :hasAvgPrice "4000000"^^xsd:decimal ;
+    :hasPopulation "42000"^^xsd:integer ;
+    :hasArea "13.5"^^xsd:decimal ;
+    :hasLuxuryLevel "8/10" ;
+    :hasVibe "Panoramic ocean" ;
+    :knownForCuisine "Mediterranean" ;
+    :description "Trails, golf courses" ;
+    :features "OceanView; Trump National Golf Club" .
+
+:windsorSquare rdf:type :UrbanLuxuryNeighborhood ;
+    :hasAvgPrice "3300000"^^xsd:decimal ;
+    :hasPopulation "5000"^^xsd:integer ;
+    :hasArea "0.9"^^xsd:decimal ;
+    :hasLuxuryLevel "7/10" ;
+    :hasVibe "Grand historic" ;
+    :knownForCuisine "Nearby fine" ;
+    :description "Tree-lined, large lots" ;
+    :features "Historic homes; Larchmont Village" .
+
+:sanMarino rdf:type :ExclusiveResidentialNeighborhood ;
+    :hasAvgPrice "2800000"^^xsd:decimal ;
+    :hasPopulation "13000"^^xsd:integer ;
+    :hasArea "3.8"^^xsd:decimal ;
+    :hasLuxuryLevel "7/10" ;
+    :hasVibe "Affluent quiet" ;
+    :knownForCuisine "Excellent schools" ;
+    :description "Business executives" ;
+    :features "Lacy Park; Huntington Library" .
+

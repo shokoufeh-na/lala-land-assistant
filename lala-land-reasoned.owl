@@ -1,0 +1,318 @@
+Prefix(:=<http://www.semanticweb.org/sonia/ontologies/2025/10/untitled-ontology-23/>)
+Prefix(la:=<http://example.org/lala-land#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://example.org/lala-land#>
+
+Declaration(Class(la:ArtisticLifestyle))
+Declaration(Class(la:BeachLifestyle))
+Declaration(Class(la:CelebrityHotspot))
+Declaration(Class(la:CoastalLuxuryNeighborhood))
+Declaration(Class(la:CommuteBelow22))
+Declaration(Class(la:CulturalLandmark))
+Declaration(Class(la:EntertainmentHub))
+Declaration(Class(la:EntertainmentLandmark))
+Declaration(Class(la:ExclusiveResidentialNeighborhood))
+Declaration(Class(la:FamilyFriendlyLuxury))
+Declaration(Class(la:Feature))
+Declaration(Class(la:FilmIndustry))
+Declaration(Class(la:FineArtsScene))
+Declaration(Class(la:GatedCommunity))
+Declaration(Class(la:HistoricArchitecture))
+Declaration(Class(la:HistoricLuxuryNeighborhood))
+Declaration(Class(la:Landmark))
+Declaration(Class(la:Lifestyle))
+Declaration(Class(la:LuxuryLifestyle))
+Declaration(Class(la:LuxuryNeighborhood))
+Declaration(Class(la:NaturalLandmark))
+Declaration(Class(la:Neighborhood))
+Declaration(Class(la:Nightlife))
+Declaration(Class(la:NightlifeLifestyle))
+Declaration(Class(la:NightlifeLuxuryNeighborhood))
+Declaration(Class(la:OceanView))
+Declaration(Class(la:PopulationAbove20K))
+Declaration(Class(la:PriceAbove2M))
+Declaration(Class(la:PriceAbove3M))
+Declaration(Class(la:PriceAbove5M))
+Declaration(Class(la:PriceAbove6M))
+Declaration(Class(la:ResidentialFeature))
+Declaration(Class(la:ShoppingDistrict))
+Declaration(Class(la:ShoppingLandmark))
+Declaration(Class(la:ShoppingLuxuryNeighborhood))
+Declaration(Class(la:ShortCommuteElite))
+Declaration(Class(la:TechInnovation))
+Declaration(Class(la:UltraLuxuryNeighborhood))
+Declaration(Class(la:UrbanFeature))
+Declaration(Class(la:UrbanLuxuryNeighborhood))
+Declaration(ObjectProperty(la:attracts))
+Declaration(ObjectProperty(la:famousFor))
+Declaration(ObjectProperty(la:hasFeature))
+Declaration(ObjectProperty(la:hasLandmark))
+Declaration(DataProperty(la:averageCommuteTime))
+Declaration(DataProperty(la:description))
+Declaration(DataProperty(la:hasArea))
+Declaration(DataProperty(la:hasAvgPrice))
+Declaration(DataProperty(la:hasCelebrityResidents))
+Declaration(DataProperty(la:hasLuxuryLevel))
+Declaration(DataProperty(la:hasPopulation))
+Declaration(DataProperty(la:hasVibe))
+Declaration(DataProperty(la:knownForCuisine))
+Declaration(NamedIndividual(la:malibu))
+Declaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: la:attracts (la:attracts)
+
+ObjectPropertyDomain(la:attracts la:Neighborhood)
+ObjectPropertyRange(la:attracts la:Lifestyle)
+
+# Object Property: la:famousFor (la:famousFor)
+
+ObjectPropertyDomain(la:famousFor la:Neighborhood)
+ObjectPropertyRange(la:famousFor la:Lifestyle)
+
+# Object Property: la:hasFeature (la:hasFeature)
+
+ObjectPropertyDomain(la:hasFeature la:Neighborhood)
+ObjectPropertyRange(la:hasFeature la:Feature)
+
+# Object Property: la:hasLandmark (la:hasLandmark)
+
+ObjectPropertyDomain(la:hasLandmark la:Neighborhood)
+ObjectPropertyRange(la:hasLandmark la:Landmark)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: la:averageCommuteTime (la:averageCommuteTime)
+
+DataPropertyDomain(la:averageCommuteTime la:Neighborhood)
+DataPropertyRange(la:averageCommuteTime xsd:decimal)
+
+# Data Property: la:description (la:description)
+
+DataPropertyDomain(la:description owl:Thing)
+DataPropertyRange(la:description xsd:string)
+
+# Data Property: la:hasArea (la:hasArea)
+
+DataPropertyDomain(la:hasArea la:Neighborhood)
+DataPropertyRange(la:hasArea xsd:decimal)
+
+# Data Property: la:hasAvgPrice (la:hasAvgPrice)
+
+DataPropertyDomain(la:hasAvgPrice la:Neighborhood)
+DataPropertyRange(la:hasAvgPrice xsd:decimal)
+
+# Data Property: la:hasCelebrityResidents (la:hasCelebrityResidents)
+
+DataPropertyDomain(la:hasCelebrityResidents la:Neighborhood)
+DataPropertyRange(la:hasCelebrityResidents xsd:boolean)
+
+# Data Property: la:hasLuxuryLevel (la:hasLuxuryLevel)
+
+DataPropertyDomain(la:hasLuxuryLevel la:Neighborhood)
+DataPropertyRange(la:hasLuxuryLevel xsd:string)
+
+# Data Property: la:hasPopulation (la:hasPopulation)
+
+DataPropertyDomain(la:hasPopulation la:Neighborhood)
+DataPropertyRange(la:hasPopulation xsd:integer)
+
+# Data Property: la:hasVibe (la:hasVibe)
+
+DataPropertyDomain(la:hasVibe la:Neighborhood)
+DataPropertyRange(la:hasVibe xsd:string)
+
+# Data Property: la:knownForCuisine (la:knownForCuisine)
+
+DataPropertyDomain(la:knownForCuisine la:Neighborhood)
+DataPropertyRange(la:knownForCuisine xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: la:ArtisticLifestyle (la:ArtisticLifestyle)
+
+SubClassOf(la:ArtisticLifestyle la:LuxuryLifestyle)
+
+# Class: la:BeachLifestyle (la:BeachLifestyle)
+
+SubClassOf(la:BeachLifestyle la:LuxuryLifestyle)
+
+# Class: la:CelebrityHotspot (la:CelebrityHotspot)
+
+SubClassOf(la:CelebrityHotspot la:LuxuryNeighborhood)
+
+# Class: la:CoastalLuxuryNeighborhood (la:CoastalLuxuryNeighborhood)
+
+SubClassOf(la:CoastalLuxuryNeighborhood la:LuxuryNeighborhood)
+
+# Class: la:CommuteBelow22 (la:CommuteBelow22)
+
+EquivalentClasses(la:CommuteBelow22 DataMaxCardinality(21 la:averageCommuteTime xsd:int))
+SubClassOf(la:CommuteBelow22 la:Neighborhood)
+
+# Class: la:CulturalLandmark (la:CulturalLandmark)
+
+SubClassOf(la:CulturalLandmark la:Landmark)
+
+# Class: la:EntertainmentHub (la:EntertainmentHub)
+
+SubClassOf(la:EntertainmentHub la:LuxuryNeighborhood)
+
+# Class: la:EntertainmentLandmark (la:EntertainmentLandmark)
+
+SubClassOf(la:EntertainmentLandmark la:CulturalLandmark)
+
+# Class: la:ExclusiveResidentialNeighborhood (la:ExclusiveResidentialNeighborhood)
+
+SubClassOf(la:ExclusiveResidentialNeighborhood la:LuxuryNeighborhood)
+
+# Class: la:FamilyFriendlyLuxury (la:FamilyFriendlyLuxury)
+
+SubClassOf(la:FamilyFriendlyLuxury la:LuxuryNeighborhood)
+
+# Class: la:FilmIndustry (la:FilmIndustry)
+
+SubClassOf(la:FilmIndustry la:UrbanFeature)
+
+# Class: la:FineArtsScene (la:FineArtsScene)
+
+SubClassOf(la:FineArtsScene la:UrbanFeature)
+
+# Class: la:GatedCommunity (la:GatedCommunity)
+
+SubClassOf(la:GatedCommunity la:ResidentialFeature)
+
+# Class: la:HistoricArchitecture (la:HistoricArchitecture)
+
+SubClassOf(la:HistoricArchitecture la:ResidentialFeature)
+
+# Class: la:HistoricLuxuryNeighborhood (la:HistoricLuxuryNeighborhood)
+
+SubClassOf(la:HistoricLuxuryNeighborhood la:LuxuryNeighborhood)
+
+# Class: la:LuxuryLifestyle (la:LuxuryLifestyle)
+
+SubClassOf(la:LuxuryLifestyle la:Lifestyle)
+
+# Class: la:LuxuryNeighborhood (la:LuxuryNeighborhood)
+
+SubClassOf(la:LuxuryNeighborhood la:Neighborhood)
+
+# Class: la:NaturalLandmark (la:NaturalLandmark)
+
+SubClassOf(la:NaturalLandmark la:CulturalLandmark)
+
+# Class: la:Nightlife (la:Nightlife)
+
+SubClassOf(la:Nightlife la:ResidentialFeature)
+
+# Class: la:NightlifeLifestyle (la:NightlifeLifestyle)
+
+SubClassOf(la:NightlifeLifestyle la:LuxuryLifestyle)
+
+# Class: la:NightlifeLuxuryNeighborhood (la:NightlifeLuxuryNeighborhood)
+
+SubClassOf(la:NightlifeLuxuryNeighborhood la:LuxuryNeighborhood)
+
+# Class: la:OceanView (la:OceanView)
+
+SubClassOf(la:OceanView la:ResidentialFeature)
+
+# Class: la:PopulationAbove20K (la:PopulationAbove20K)
+
+EquivalentClasses(la:PopulationAbove20K DataMinCardinality(20001 la:hasPopulation xsd:int))
+SubClassOf(la:PopulationAbove20K la:Neighborhood)
+
+# Class: la:PriceAbove2M (la:PriceAbove2M)
+
+EquivalentClasses(la:PriceAbove2M DataMinCardinality(2000001 la:hasAvgPrice xsd:decimal))
+SubClassOf(la:PriceAbove2M la:LuxuryNeighborhood)
+
+# Class: la:PriceAbove3M (la:PriceAbove3M)
+
+EquivalentClasses(la:PriceAbove3M DataMinCardinality(3000001 la:hasAvgPrice xsd:decimal))
+SubClassOf(la:PriceAbove3M la:PriceAbove2M)
+
+# Class: la:PriceAbove5M (la:PriceAbove5M)
+
+EquivalentClasses(la:PriceAbove5M DataMinCardinality(5000001 la:hasAvgPrice xsd:decimal))
+SubClassOf(la:PriceAbove5M la:PriceAbove3M)
+
+# Class: la:PriceAbove6M (la:PriceAbove6M)
+
+EquivalentClasses(la:PriceAbove6M DataMinCardinality(6000001 la:hasAvgPrice xsd:decimal))
+SubClassOf(la:PriceAbove6M la:PriceAbove5M)
+
+# Class: la:ResidentialFeature (la:ResidentialFeature)
+
+SubClassOf(la:ResidentialFeature la:Feature)
+
+# Class: la:ShoppingDistrict (la:ShoppingDistrict)
+
+SubClassOf(la:ShoppingDistrict la:ResidentialFeature)
+
+# Class: la:ShoppingLandmark (la:ShoppingLandmark)
+
+SubClassOf(la:ShoppingLandmark la:CulturalLandmark)
+
+# Class: la:ShoppingLuxuryNeighborhood (la:ShoppingLuxuryNeighborhood)
+
+SubClassOf(la:ShoppingLuxuryNeighborhood la:LuxuryNeighborhood)
+
+# Class: la:ShortCommuteElite (la:ShortCommuteElite)
+
+SubClassOf(la:ShortCommuteElite la:LuxuryNeighborhood)
+
+# Class: la:TechInnovation (la:TechInnovation)
+
+SubClassOf(la:TechInnovation la:UrbanFeature)
+
+# Class: la:UltraLuxuryNeighborhood (la:UltraLuxuryNeighborhood)
+
+SubClassOf(la:UltraLuxuryNeighborhood la:LuxuryNeighborhood)
+
+# Class: la:UrbanFeature (la:UrbanFeature)
+
+SubClassOf(la:UrbanFeature la:Feature)
+
+# Class: la:UrbanLuxuryNeighborhood (la:UrbanLuxuryNeighborhood)
+
+SubClassOf(la:UrbanLuxuryNeighborhood la:LuxuryNeighborhood)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: la:malibu (la:malibu)
+
+ClassAssertion(la:Neighborhood la:malibu)
+
+
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Coastal Luxury (your original") Body(ObjectPropertyAtom(la:hasFeature Variable(:n) Variable(:f)) ClassAtom(la:OceanView Variable(:f)) ObjectPropertyAtom(la:attracts Variable(:n) Variable(:l)) ClassAtom(la:BeachLifestyle Variable(:l)))Head(ClassAtom(la:CoastalLuxuryNeighborhood Variable(:n))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Short-Commute Elite (< 22 min + ultra-luxury)") Body(ClassAtom(la:PriceAbove6M Variable(:n)) ClassAtom(la:CommuteBelow22 Variable(:n)))Head(ClassAtom(la:ShortCommuteElite Variable(:n))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Nightlife Luxury (has Nightlife feature + EntertainmentHub)") Body(ObjectPropertyAtom(la:hasFeature Variable(:n) Variable(:f)) ClassAtom(la:Nightlife Variable(:f)) ClassAtom(la:EntertainmentHub Variable(:n)))Head(ClassAtom(la:NightlifeLuxuryNeighborhood Variable(:n))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Entertainment Hub") Body(ObjectPropertyAtom(la:hasLandmark Variable(:n) Variable(:l)) ClassAtom(la:EntertainmentLandmark Variable(:l)))Head(ClassAtom(la:EntertainmentHub Variable(:n))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Exclusive Residential") Body(ObjectPropertyAtom(la:hasFeature Variable(:n) Variable(:f)) ClassAtom(la:GatedCommunity Variable(:f)) DataPropertyAtom(la:hasAvgPrice Variable(:n) Variable(:p)) ClassAtom(la:PriceAbove5M Variable(:p)))Head(ClassAtom(la:ExclusiveResidentialNeighborhood Variable(:n))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Historic Prestige") Body(ObjectPropertyAtom(la:hasFeature Variable(:n) Variable(:f)) ClassAtom(la:HistoricArchitecture Variable(:f)) DataPropertyAtom(la:hasAvgPrice Variable(:n) Variable(:p)) ClassAtom(la:PriceAbove2M Variable(:p)))Head(ClassAtom(la:HistoricLuxuryNeighborhood Variable(:n))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Family-Friendly Luxury (population > 20 000 && price > 3 M)") Body(ClassAtom(la:PopulationAbove20K Variable(:n)) DataPropertyAtom(la:hasAvgPrice Variable(:n) Variable(:p)) ClassAtom(la:PriceAbove3M Variable(:p)))Head(ClassAtom(la:FamilyFriendlyLuxury Variable(:n))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Ultra-Luxury (> $6 M)") Body(ClassAtom(la:PriceAbove6M Variable(:n)))Head(ClassAtom(la:UltraLuxuryNeighborhood Variable(:n))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Shopping Luxury") Body(ObjectPropertyAtom(la:hasLandmark Variable(:n) Variable(:l)) ClassAtom(la:ShoppingLandmark Variable(:l)))Head(ClassAtom(la:ShoppingLuxuryNeighborhood Variable(:n))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Celebrity Hotspt") Body(DataPropertyAtom(la:hasCelebrityResidents Variable(:n) "true"^^xsd:boolean))Head(ClassAtom(la:CelebrityHotspot Variable(:n))))
+)
