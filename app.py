@@ -1,7 +1,7 @@
 # -------Thank you for your guidance throughout the course; I learned a lot. Because of unexpected disruptions during the presentation,------- 
 # -------I briefly lost focus and could not present the project as smoothly as I had planned. I appreciate your understanding.-------
 # -------streamlit run app.py-------
-# -------Includes two reasoned protégé lala-land-reasoned.owl and not resaoned lala-land-rdf.owl------
+# -------Includes two reasoned protégé lala-land-reasoned.owl and not reasoned lala-land-rdf.owl------
 # -------I did not update app.py with reasoned protoge-------
 # -------Instances are loaded and read from graph , not ontology--------
 
